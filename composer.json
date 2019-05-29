@@ -1,6 +1,6 @@
 {
     "name": "tecsecret/br_customer_attributes",
-    "description": "Módulo que adiciona campos brasileiros ao cadastro de cliente",
+    "description": "Magento 2 - Adiciona Suporte a campos de cadastro para uso no Brasil.",
     "type": "magento-2-module",
     "version": "1.0.1",
     "license": [

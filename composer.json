@@ -1,0 +1,32 @@
+{
+    "name": "tecsecret/m2_atributos_brasil",
+    "description": "Módulo que adiciona campos brasileiros ao cadastro de cliente",
+    "type": "magento-2-module",
+    "version": "1.0.1",
+    "license": [
+        "proprietary"
+      ],
+      "authors": [
+        {
+          "name": "Grupo TecSecret",
+          "homepage": "https://tecsecret.com.br",
+          "email": "webmaster@tecsecret.com.br",
+          "role": "Departamento de Desenvolvimento"
+        },
+        {
+          "name": "Projeto original Magento-SystemCode_BrazilCustomerAttributes",
+          "homepage": "https://github.com/eduardoddias/Magento-SystemCode_BrazilCustomerAttributes"
+        }
+        ],
+        "require": {
+        "tecsecret/m2_pt_br": "*"
+        },
+        "autoload": {
+        "psr-4": {
+            "TecSecret\\BrazilCustomerAttributes\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

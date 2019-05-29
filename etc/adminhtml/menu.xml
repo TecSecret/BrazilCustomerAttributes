@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <!-- TODO: Complete module TecSecret_Base-->
+        <!--add id="TecSecret_BrazilCustomerAttributes::title" title="Brazil Customer Attributes" translate="title" module="TecSecret_BrazilCustomerAttributes" sortOrder="100" parent="TecSecret_Base::TecSecret" dependsOnModule="TecSecret_BrazilCustomerAttributes" resource="Magento_Backend::content"/>
+        <add id="TecSecret_BrazilCustomerAttributes::configuration" title="Configuration" translate="title" module="TecSecret_BrazilCustomerAttributes" sortOrder="50" parent="TecSecret_BrazilCustomerAttributes::title" action="adminhtml/system_config/edit/section/brazilcustomerattributes" dependsOnModule="TecSecret_BrazilCustomerAttributes" resource="Magento_Backend::content"/-->
+    </menu>
+</config>

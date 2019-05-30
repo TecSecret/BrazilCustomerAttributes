@@ -2,7 +2,7 @@
     "name": "tecsecret/br_customer_attributes",
     "description": "Magento 2 - Adiciona Suporte a campos de cadastro para uso no Brasil.",
     "type": "magento-2-component",
-    "version": "1.0.1",
+    "version": "1.0",
     "license": [
         "proprietary"
       ],
@@ -18,9 +18,6 @@
           "homepage": "https://github.com/eduardoddias/Magento-SystemCode_BrazilCustomerAttributes"
         }
         ],
-        "require": {
-        "tecsecret/m2_pt_br": "*"
-        },
         "autoload": {
         "psr-4": {
             "TecSecret\\BrazilCustomerAttributes\\": ""

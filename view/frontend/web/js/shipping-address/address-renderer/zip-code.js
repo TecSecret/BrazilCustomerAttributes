@@ -73,12 +73,8 @@ define([
 
                 var ajaxurl = url.build("brcustomer/consult/address/zipcode/"+value);
 
-                jquery.ajax({
-                    url: ajaxurl,
-                    dataType: 'json',
-                    timeout: 4000
-                }).done(function (data) {
-                    if(data.error){
+                jquery.getJSON(ajaxurl, function(data) {
+                if(data.error){
                         // TODO
                     }else{
                         if(registry.get(element.parentName + '.' + 'street.0')){

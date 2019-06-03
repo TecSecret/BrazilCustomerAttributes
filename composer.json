@@ -1,29 +1,30 @@
 {
-    "name": "tecsecret/br_customer_attributes",
-    "description": "Magento 2 - Adiciona Suporte a campos de cadastro para uso no Brasil.",
-    "type": "magento-2-component",
-    "version": "1.0",
-    "license": [
-        "proprietary"
+  "name": "tecsecret/br_customer_attributes",
+  "description": "Magento 2 - Adiciona Suporte a campos de cadastro para uso no Brasil.",
+  "type": "magento-2-component",
+  "minimum-stability": "stable",
+  "version": "1.1",
+  "license": [
+      "proprietary"
+    ],
+    "authors": [
+      {
+        "name": "Grupo TecSecret",
+        "homepage": "https://tecsecret.com.br",
+        "email": "webmaster@tecsecret.com.br",
+        "role": "Departamento de Desenvolvimento"
+      },
+      {
+        "name": "Projeto original Magento-SystemCode_BrazilCustomerAttributes",
+        "homepage": "https://github.com/eduardoddias/Magento-SystemCode_BrazilCustomerAttributes"
+      }
       ],
-      "authors": [
-        {
-          "name": "Grupo TecSecret",
-          "homepage": "https://tecsecret.com.br",
-          "email": "webmaster@tecsecret.com.br",
-          "role": "Departamento de Desenvolvimento"
-        },
-        {
-          "name": "Projeto original Magento-SystemCode_BrazilCustomerAttributes",
-          "homepage": "https://github.com/eduardoddias/Magento-SystemCode_BrazilCustomerAttributes"
-        }
-        ],
-        "autoload": {
-        "psr-4": {
-            "TecSecret\\BrazilCustomerAttributes\\": ""
-        },
-        "files": [
-            "registration.php"
-        ]
-    }
+      "autoload": {
+      "psr-4": {
+          "TecSecret\\BrazilCustomerAttributes\\": ""
+      },
+      "files": [
+          "registration.php"
+      ]
+  }
 }

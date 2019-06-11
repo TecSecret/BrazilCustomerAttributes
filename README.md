@@ -20,7 +20,7 @@ OBS: O módulo não funciona com checkout como visitante.
 ### Instalação
 A instalação é realizada via composer.
 ```
-compose require tecsecret/br_customer_attributes
+composer require tecsecret/br_customer_attributes
 php bin/magento setup:di:compile
 php bin/magento setup:upgrade
 ```

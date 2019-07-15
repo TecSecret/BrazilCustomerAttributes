@@ -3,7 +3,6 @@
 namespace TecSecret\BrazilCustomerAttributes\Block\Magento\Customer\Widget;
 
 use TecSecret\BrazilCustomerAttributes\Helper\Data as Helper;
-use Magento\Customer\Api\CustomerMetadataInterface;
 
 /**
  *
@@ -18,7 +17,7 @@ use Magento\Customer\Api\CustomerMetadataInterface;
  * @copyright  System Code LTDA-ME
  * @license    http://opensource.org/licenses/osl-3.0.php
  */
-class Streetprefix extends \Magento\Customer\Block\Address\Edit
+class StreetprefixEdit extends \Magento\Customer\Block\Address\Edit
 {
 
     protected $helper;

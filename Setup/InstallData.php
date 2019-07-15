@@ -17,7 +17,7 @@ use Magento\Eav\Model\Entity\Attribute\SetFactory as AttributeSetFactory;
  *
  * @category   SystemCode
  * @package    Systemcode_BrazilCustomerAttributes
- * @author     Eduardo Diogo Dias <contato@systemcode.com.br>
+ * @author     Eduardo Diogo Dias <contato@TecSecret.com.br>
  * @copyright  System Code LTDA-ME
  * @license    http://opensource.org/licenses/osl-3.0.php
  */
